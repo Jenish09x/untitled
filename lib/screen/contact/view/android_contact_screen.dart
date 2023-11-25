@@ -137,22 +137,6 @@ class _AndroidContactScreenState extends State<AndroidContactScreen> {
           },
           child: const Icon(Icons.dialpad),
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.person),
-              label: 'Contact',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.star_outline),
-              label: 'Favorite',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.settings),
-              label: 'Settings',
-            ),
-          ],
-        ),
       ),
     );
   }
